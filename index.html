@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Hospital Management System</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Hospital Management System</h1>
+        <div class="menu">
+            <button onclick="showAddForm()">Add Patient</button>
+            <button onclick="displayPatients()">Display Patients</button>
+            <button onclick="showSearchForm()">Search Patient</button>
+            <button onclick="showUpdateForm()">Update Patient Info</button>
+            <button onclick="showDeleteForm()">Delete Patient</button>
+        </div>
+        <div class="forms">
+            <!-- Add Patient Form -->
+            <div id="addForm" style="display: none;">
+                <h2>Add Patient</h2>
+                <!-- Your form elements go here -->
+            </div>
+
+            <!-- Display Patients -->
+            <div id="displayPatients" style="display: none;">
+                <h2>Patients List</h2>
+                <!-- Display patient records here -->
+            </div>
+
+            <!-- Search Patient Form -->
+            <div id="searchForm" style="display: none;">
+                <h2>Search Patient</h2>
+                <!-- Your form elements go here -->
+            </div>
+
+            <!-- Update Patient Info Form -->
+            <div id="updateForm" style="display: none;">
+                <h2>Update Patient Info</h2>
+                <!-- Your form elements go here -->
+            </div>
+
+            <!-- Delete Patient Form -->
+            <div id="deleteForm" style="display: none;">
+                <h2>Delete Patient</h2>
+                <!-- Your form elements go here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
